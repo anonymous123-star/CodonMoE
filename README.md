@@ -20,7 +20,7 @@ CodonMoE(input_dim, num_experts=4, dropout_rate=0.1)
 ```
 
 Parameters:
-- `input_dim`: Dimension of the input features
+- `input_dim`: Dimension of the features from backbones
 - `num_experts`: Number of expert networks in the Mixture of Experts
 - `dropout_rate`: Dropout rate for regularization
 
@@ -32,7 +32,7 @@ mRNAModel(base_model, codon_moe)
 
 Parameters:
 - `base_model`: The base model to be integrated with CodonMoE
-- `codon_moe`: The CodonMixture of Experts model
+- `codon_moe`: The Adaptive Mixture of Codon Reformative Experts
 
 ## API Tests
 
