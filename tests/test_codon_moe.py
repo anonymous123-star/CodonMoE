@@ -2,6 +2,7 @@ import unittest
 import torch
 from codonmoe.codon_moe import LayerNorm, MixtureOfExperts, CodonMoE, mRNAModel
 
+
 class TestCodonMoE(unittest.TestCase):
     def setUp(self):
         self.input_dim = 768
